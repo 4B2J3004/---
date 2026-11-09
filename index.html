@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="以插畫與動畫記錄靈感，歡迎來到我的創作作品集。">
+  <title>創作作品集 — Illustration & Motion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#about" aria-label="回到首頁">
+      <span class="wordmark-mark" aria-hidden="true">✳</span>
+      <span>VISUAL<br>JOURNAL</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span><span class="sr-only">開啟導覽選單</span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="主要導覽">
+      <a href="#about">關於我 <span>About</span></a>
+      <a href="#illustration">繪圖作品 <span>Illustration</span></a>
+      <a href="#animation">動畫作品 <span>Motion</span></a>
+    </nav>
+    <a class="header-contact" href="#animation">探索作品 <span aria-hidden="true">↘</span></a>
+  </header>
+
+  <main>
+    <section class="about section-shell" id="about" aria-labelledby="about-title">
+      <div class="section-kicker"><span>01</span><span class="kicker-line"></span><span>CREATIVE PROFILE</span></div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p class="eyebrow">ILLUSTRATION · ANIMATION</p>
+          <h1 id="about-title">把靈感，<br><span>做成看得見的樣子。</span></h1>
+          <p class="intro-text">你好，我是喜歡用畫面說故事的創作者。從一張插畫到一段動畫，持續觀察日常、練習把腦海裡的想像變成作品。</p>
+          <a class="text-link" href="#illustration">往下看看我的作品 <span aria-hidden="true">↓</span></a>
+          <div class="profile-chip">
+            <img src="image/cat.jpg" alt="個人頭像" width="72" height="72">
+            <div><span class="chip-label">目前持續創作中</span><strong>Drawn with curiosity.</strong></div>
+            <span class="chip-star" aria-hidden="true">✳</span>
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="visual-frame">
+            <video class="video-player intro-player" data-frame-poster data-poster-time="5" controls playsinline preload="metadata" aria-label="片頭動畫練習">
+              <source src="video/片頭動畫練習.mp4" type="video/mp4">
+              您的瀏覽器不支援 HTML 影片播放。
+            </video>
+            <div class="frame-caption"><span>片頭動畫練習</span><span>PLAY THE INTRO ↗</span></div>
+          </div>
+          <div class="visual-index" aria-hidden="true">VISUAL<br>STORYTELLING<br><span>2024 — 2025</span></div>
+          <span class="visual-spark" aria-hidden="true">✳</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#illustration"><span></span>SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="illustration section-shell" id="illustration" aria-labelledby="illustration-title">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker"><span>02</span><span class="kicker-line"></span><span>SELECTED ARTWORK</span></div>
+          <h2 id="illustration-title">繪圖作品<span class="heading-en">Illustration</span></h2>
+        </div>
+        <p>留住腦海裡的角色，<br>也留住創作當下的心情。</p>
+      </div>
+      <a class="artwork-card" href="artwork.html" aria-label="查看未命名的作品完整圖檔">
+        <div class="artwork-image-wrap">
+          <img src="image/未命名的作品.jpg" alt="黑白貓咪角色插畫局部" width="1479" height="2048" loading="lazy">
+          <span class="artwork-view">VIEW<br>ARTWORK <span aria-hidden="true">↗</span></span>
+        </div>
+        <div class="artwork-meta">
+          <span><span class="artwork-number">01</span> 未命名的作品</span>
+          <span>ILLUSTRATION <span aria-hidden="true">↗</span></span>
+        </div>
+      </a>
+    </section>
+
+    <section class="animation section-shell" id="animation" aria-labelledby="animation-title">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker"><span>03</span><span class="kicker-line"></span><span>MOVING IMAGE</span></div>
+          <h2 id="animation-title">動畫作品<span class="heading-en">Animation</span></h2>
+        </div>
+        <p>按下播放，<br>用自己的步調看一段小故事。</p>
+      </div>
+      <div class="video-grid">
+        <article class="video-card">
+          <div class="video-frame">
+            <video class="video-player" data-frame-poster data-poster-time="5" controls playsinline preload="metadata" aria-label="片頭動畫練習影片">
+              <source src="video/片頭動畫練習.mp4" type="video/mp4">
+              您的瀏覽器不支援 HTML 影片播放。
+            </video>
+            <span class="video-index">01 / MOTION</span>
+          </div>
+          <div class="video-meta"><h3>片頭動畫練習</h3><span>OPENING · 2025</span></div>
+        </article>
+        <article class="video-card">
+          <div class="video-frame">
+            <video class="video-player" data-frame-poster controls playsinline preload="metadata" aria-label="廣告動畫練習影片一">
+              <source src="video/廣告動畫練習.mp4" type="video/mp4">
+              您的瀏覽器不支援 HTML 影片播放。
+            </video>
+            <span class="video-index">02 / MOTION</span>
+          </div>
+          <div class="video-meta"><h3>廣告動畫練習 01</h3><span>ADVERTISING · 2025</span></div>
+        </article>
+        <article class="video-card">
+          <div class="video-frame">
+            <video class="video-player" data-frame-poster controls playsinline preload="metadata" aria-label="廣告動畫練習影片二">
+              <source src="video/廣告動畫練習2.mp4" type="video/mp4">
+              您的瀏覽器不支援 HTML 影片播放。
+            </video>
+            <span class="video-index">03 / MOTION</span>
+          </div>
+          <div class="video-meta"><h3>廣告動畫練習 02</h3><span>ADVERTISING · 2025</span></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="wordmark footer-wordmark" href="#about"><span class="wordmark-mark" aria-hidden="true">✳</span><span>VISUAL<br>JOURNAL</span></a>
+    <p>感謝你來看我的作品。<br><span>Thanks for stopping by.</span></p>
+    <a class="back-to-top" href="#about">BACK TO TOP <span aria-hidden="true">↑</span></a>
+    <small>© 2025 VISUAL JOURNAL · MADE WITH CURIOSITY</small>
+  </footer>
+</body>
+</html>
